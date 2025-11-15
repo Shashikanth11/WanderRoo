@@ -1,0 +1,72 @@
+# ===================================
+# Python
+# ===================================
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual Environments
+.env
+.venv/
+env/
+venv/
+pyenv/
+
+# ===================================
+# Streamlit
+# ===================================
+.streamlit/
+.streamlit/secrets.toml
+
+# ===================================
+# Chainlit
+# ===================================
+chainlit.md
+.chainlit/translations
+.chainlit/secrets.toml
+
+# ===================================
+# VS Code
+# ===================================
+.vscode/
+
+# ===================================
+# macOS
+# ===================================
+.DS_Store
+
+# ===================================
+# Jupyter
+# ===================================
+.ipynb_checkpoints/
+
+# ===================================
+# Anaconda (optional)
+# ===================================
+conda-meta/
+*.conda
+
+# ===================================
+# Temporary / Generated Files
+# ===================================
+
+# Ignore everything in data folders by default
+data/listings_files/
+data/reviews_files/
+
+# Ignore only specific files
+data/listings_uploaded_files.json
+data/reviews_uploaded_files.json
+*.txt
+data/sydney_listing.json
+data/sydney_review.json
+data/sydney_100listings.json
+data/sydney_100reviews.json
+# === Exceptions (do NOT ignore these) ===
+!data/sydney_listings.json
+!data/sydney_reviews.json
+
